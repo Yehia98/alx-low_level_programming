@@ -9,7 +9,7 @@ gcc $CFILE -o cisfun
 */
 int main(void)
 {
-        puts("\"programming is like building a multilingual puzzle");
+        puts("\"Programming is like building a multilingual puzzle");
         return (0);
 }
 
@@ -19,10 +19,10 @@ int main(void)
  */
 
 int main(void)
-{       
+{
         printf("with proper grammer, but the outcome is a piece of art,\n");
-        return(0);
-}  
+        return (0);
+}
 
 /**
 * main - program that prints the size of various types on the computer it is comp*iled and run on
