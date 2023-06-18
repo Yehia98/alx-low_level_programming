@@ -2,11 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * Main - determine if a random number is positive, negative or zero
- *
- * Description: A program uses if statements to determine the type of a number
- *
- * Return: Always  0 (success)
+ * main - determining the type of a random number.
+ * Description: A program that determines random numbers.
+ * Return: Always 0 (success)
  */
 int main(void)
 {
