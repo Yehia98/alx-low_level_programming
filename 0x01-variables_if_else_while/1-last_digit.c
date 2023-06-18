@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - entry point
- * Description: print the last digit stored in the variable n
- * return 0 success
+ * main - prints the last digit.
+ * Description: A program that prints the last digit stored in the variable n.
+ * Return: Always 0 (success)
  */
 int main(void)
 {
