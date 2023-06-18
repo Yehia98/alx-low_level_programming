@@ -2,8 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - determine if a random number is positive or negative or zero
- *return: 0 (success)
+ * Main - determine if a random number is positive, negative or zero
+ *
+ * Description: A program uses if statements to determine the type of a number
+ *
+ * Return: Always  0 (success)
  */
 int main(void)
 {
@@ -19,7 +22,7 @@ int main(void)
 	}
 	else if (n > 0)
 	{
-		printf("%d is poitive\n", n);
+		printf("%d is positive\n", n);
 	}
 	else
 	{
