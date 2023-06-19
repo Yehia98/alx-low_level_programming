@@ -23,9 +23,6 @@ int main(void)
 			if (n > m || n == m)
 			{
 				m++;
-			/*	putchar(',');
-				putchar(' ');
-			*/
 			}
 		}
 	}
