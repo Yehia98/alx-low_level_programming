@@ -15,14 +15,14 @@ if (height <= 0 || width <= 0)
 {
 return (NULL);
 }
-matrix = malloc(sizeof(int *) * width);
+matrix = malloc(sizeof(int *) * height);
 if (matrix == NULL)
 {
 return (NULL);
 }
-for (i = 0; i < width; i++)
+for (i = 0; i < height; i++)
 {
-matrix[i] = malloc(sizeof(int) * height);
+matrix[i] = malloc(sizeof(int) * width);
 
 if (matrix[i] == NULL)
 {
@@ -33,9 +33,9 @@ free(matrix);
 return (NULL);
 }
 }
-for (i = 0; i < width; i++)
+for (i = 0; i < height; i++)
 {
-for (j = 0; j < height; j++)
+for (j = 0; j < width; j++)
 {
 matrix[i][j] = 0;
 }
