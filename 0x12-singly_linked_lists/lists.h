@@ -1,5 +1,5 @@
-#ifndef LISTS_H
-#define LISTS_H
+#ifndef MAIN_HEADER_FILE
+#define MAIN_HEADER_FILE
 /**
 * struct list_s - singly linked list
 * @str: string - (malloc'ed string)
