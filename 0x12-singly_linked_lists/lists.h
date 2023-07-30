@@ -1,5 +1,8 @@
 #ifndef MAIN_HEADER_FILE
 #define MAIN_HEADER_FILE
+
+#include <stddef.h>
+
 /**
 * struct list_s - singly linked list
 * @str: string - (malloc'ed string)
