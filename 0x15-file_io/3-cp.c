@@ -65,8 +65,8 @@ int main(int argc, char *argv[])
 	r = read(prev, buffer, 1024);
 	current = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
 
-	while (r > 0)
-	{
+	do {
+	
 		if (prev == -1 || r == -1)
 		{
 			dprintf(STDERR_FILENO,
@@ -74,7 +74,6 @@ int main(int argc, char *argv[])
 			free(buffer);
 			exit(98);
 		}
-
 		w = write(current, buffer, r);
 		if (current == -1 || w == -1)
 		{
@@ -83,11 +82,10 @@ int main(int argc, char *argv[])
 			free(buffer);
 			exit(99);
 		}
-
 		r = read(prev, buffer, 1024);
 		current = open(argv[2], O_WRONLY | O_APPEND);
+	} while (r > 0);
 
-	}
 	free(buffer);
 	close_fd(prev);
 	close_fd(current);
