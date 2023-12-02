@@ -13,7 +13,7 @@ void freenode_t(hash_node_t *node)
 }
 
 /**
- * hash_table_set - a function adds an element to the hash table.
+ * hash_table_set - a function adds an element to the hashtable.
  * @ht: a pointer to the hashtable.
  * @key: a pointer to the key.
  * @value: a pointer to the key's value.
